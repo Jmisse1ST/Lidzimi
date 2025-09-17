@@ -7,7 +7,7 @@ Lidzimi é um repositório de documentação de línguas nacionais nativas, onde
 
 # Funcionalidades:
 
-- *Documentação de Línguas:* Cada língua terá uma documentação detalhada, incluindo:
+ Cada língua terá uma documentação detalhada, incluindo:
 - Saudações e apresentações
 - Vocabulário básico
 - Gramática e sintaxe

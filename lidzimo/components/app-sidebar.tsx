@@ -2,12 +2,9 @@
 
 import * as React from "react"
 import {
-  AudioWaveform,
+
   BookOpen,
-  Bot,
-  Command,
   Frame,
-  GalleryVerticalEnd,
   Map,
   PieChart,
   Settings2,
@@ -27,93 +24,97 @@ import {
 
 // This is sample data.
 const data = {
-  user: {
-    name: "macuacuajemisse@g",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
+
   navMain: [
     {
-      title: "Playground",
+      title: "1 Fundamentos.",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "1.1 Saudações e Cumprimentos",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "1.2 Apresentações",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "1.3 Frases de Sobrevivência",
+          url: "#",
+        },
+        {
+          title: "1.4 Números e Cores",
           url: "#",
         },
       ],
     },
     {
-      title: "Models",
-      url: "#",
-      icon: Bot,
-      items: [
-        {
-          title: "Genesis",
-          url: "#",
-        },
-        {
-          title: "Explorer",
-          url: "#",
-        },
-        {
-          title: "Quantum",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Documentation",
+      title: "2 Noções de Gramática.",
       url: "#",
       icon: BookOpen,
       items: [
         {
-          title: "1. Introduction",
+          title: "2.1 Artigos e Substantivos.",
           url: "#",
         },
         {
-          title: "2. Get Started",
+          title: "2.2 Género e Número",
           url: "#",
         },
         {
-          title: "3. Tutorials",
+          title: "2.3. Verbos no Presente do Indicativo.",
           url: "#",
         },
         {
-          title: "4. Changelog",
+          title: "2.4. Pronomes Pessoais:",
+          url: "3",
+        },
+      ],
+    },
+    {
+      title: "3. Construindo Frases",
+      url: "#",
+      icon: BookOpen,
+      items: [
+        {
+          title: "3.1 Verbos: Passados comuns",
+          url: "#",
+        },
+        {
+          title: "3.2 Verbos: Futuro",
+          url: "#",
+        },
+        {
+          title: "3.3 Pronomes de Objeto Direto e Indireto ",
+          url: "#",
+        },
+        {
+          title: "3.4 Advérbios de Frequência e Modo",
           url: "#",
         },
       ],
     },
     {
-      title: "Settings",
+      title: "info",
       url: "#",
       icon: Settings2,
       items: [
         {
-          title: "General",
+          title: "Geral",
           url: "#",
         },
         {
-          title: "Team",
+          title: "Lidzimi",
           url: "#",
         },
         {
-          title: "Billing",
+          title: "Contribuidores",
           url: "#",
         },
         {
-          title: "Limits",
+          title: "Sobre",
           url: "#",
         },
       ],
@@ -140,16 +141,18 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    
-    <Sidebar  collapsible="icon" {...props}>
+
+    <Sidebar collapsible="icon" {...props}>
       <SidebarHeader>
-       
+
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
+        <div className="flex flex-1 flex-col text-amber-700 text-bold gap-4 px-3">
+        <NavMain  items={data.navMain} />
+        </div>
       </SidebarContent>
       <SidebarFooter>
-     
+
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>

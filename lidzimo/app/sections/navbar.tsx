@@ -29,7 +29,7 @@ const Navbar = () => {
                     </NavigationMenu>
                     <div className="items-center text-gray-900  gap-4 flex mr-6">
 
-                        <Button className="hover:text-white hover:bg-gray-800" variant="outline"
+                        <Button className="bg-amber-50 hover:text-white hover:bg-gray-800" variant="outline"
 
                         >
                             Changana

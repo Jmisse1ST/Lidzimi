@@ -102,19 +102,11 @@ const data = {
       icon: Settings2,
       items: [
         {
-          title: "Geral",
-          url: "#",
-        },
-        {
           title: "Lidzimi",
           url: "#",
         },
         {
           title: "Contribuidores",
-          url: "#",
-        },
-        {
-          title: "Sobre",
           url: "#",
         },
       ],

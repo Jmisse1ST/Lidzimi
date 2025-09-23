@@ -15,9 +15,8 @@ import {
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavProjects } from "@/components/nav-projects"
-import { NavUser } from "@/components/nav-user"
-import { TeamSwitcher } from "@/components/team-switcher"
+
+
 import {
   Sidebar,
   SidebarContent,
@@ -29,27 +28,10 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
+    name: "macuacuajemisse@g",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
-  teams: [
-    {
-      name: "Acme Inc",
-      logo: GalleryVerticalEnd,
-      plan: "Enterprise",
-    },
-    {
-      name: "Acme Corp.",
-      logo: AudioWaveform,
-      plan: "Startup",
-    },
-    {
-      name: "Evil Corp.",
-      logo: Command,
-      plan: "Free",
-    },
-  ],
   navMain: [
     {
       title: "Playground",
@@ -96,19 +78,19 @@ const data = {
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "1. Introduction",
           url: "#",
         },
         {
-          title: "Get Started",
+          title: "2. Get Started",
           url: "#",
         },
         {
-          title: "Tutorials",
+          title: "3. Tutorials",
           url: "#",
         },
         {
-          title: "Changelog",
+          title: "4. Changelog",
           url: "#",
         },
       ],
@@ -158,16 +140,16 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    <Sidebar collapsible="icon" {...props}>
+    
+    <Sidebar  collapsible="icon" {...props}>
       <SidebarHeader>
-        <TeamSwitcher teams={data.teams} />
+       
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavProjects projects={data.projects} />
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+     
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>

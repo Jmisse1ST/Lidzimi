@@ -16,8 +16,8 @@ Lidzimi é um repositório de documentação de línguas nacionais nativas, onde
 
 # Tecnologias:
 
-- *Frontend:* React
-- *Backend:* Node.js
+- *Frontend:* React, Tailwind CSS, Typescript, ShadCn UI.
+- *Backend:* Nextjs
 
 *Estrutura de Documentação:*
 A documentação será estruturada da seguinte forma:

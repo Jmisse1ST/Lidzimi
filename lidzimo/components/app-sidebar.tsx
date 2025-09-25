@@ -27,6 +27,18 @@ const data = {
 
   navMain: [
     {
+      title: "Comecando",
+      url: "#",
+      icon: SquareTerminal,
+      isActive: false,
+      items: [
+        {
+          title: "O que e Lidzimi?",
+          url: "#",
+        },
+      ],
+    },
+    {
       title: "1 Fundamentos.",
       url: "#",
       icon: SquareTerminal,
@@ -140,10 +152,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <div className="flex flex-1 flex-col text-amber-700 text-bold gap-4 px-3">
-        <NavMain  items={data.navMain} />
+          <NavMain items={data.navMain} />
         </div>
       </SidebarContent>
       <SidebarFooter>
+        <div className=" text-black/30 text-bold py-5 px-5 text-xl">
+          <p> &quot; Por um país em que a diversidade cultural não seja motivo de divisão.&quot;  @Jemisse </p>  &quot
+        </div>
 
       </SidebarFooter>
       <SidebarRail />

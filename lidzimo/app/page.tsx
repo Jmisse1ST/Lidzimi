@@ -23,13 +23,16 @@ export default function HomePage() {
 
     <><Navbar /><div>
 
-
-
       <SidebarProvider>
         <AppSidebar />
         <SidebarInset>
           {/* Header Fixo */}
-          <header className="fixed top-0 left-0 right-0 h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 bg-background z-40 border-b">
+          <header className="">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="flex items-center gap-2 px-4">
               <SidebarTrigger className="-ml-1" />
               <Separator
@@ -52,15 +55,16 @@ export default function HomePage() {
           </header>
 
           <div>
+            
             <main className="min-h-[calc(100vh-4rem)] pt-16 lg:pl-20 lg:pr-20 bg-background">
+              
               <HomeContent />
+
             </main>
           </div>
+         
         </SidebarInset>
       </SidebarProvider>
-
-
-
 
     </div></>
   )

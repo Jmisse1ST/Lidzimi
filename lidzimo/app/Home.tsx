@@ -1,6 +1,4 @@
-import { ChevronLeft } from "lucide-react";
 
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 const HomeContent = () => {
 
@@ -30,7 +28,7 @@ const HomeContent = () => {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto ">
               Contribua no nosso projeto no{' '}
               <a
-                href="https://github.com/seu-usuario/seu-repositorio"
+                href="https://github.com/Jmisse1ST/Lidzimi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700  hover:underline font-medium"
@@ -39,19 +37,19 @@ const HomeContent = () => {
               </a>{' '}
               sugerindo novas funcionalidades ou melhorando a documentação. Caso não seja um desenvolvedor entre em contato conosco via{' '}
               <a
-                href="https://wa.me/5511999999999"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700 hover:underline font-medium"
               >
                 WhatsApp
-              </a>.
+              </a>
             </p>
             <br />
 
             <div className="text-xl text-muted-foreground max-w-2xl mx-auto ">
               <p className=" text-xl text-muted-foreground max-w-2xl mx-auto">
-                Lidzimi é uma palavra em Changana que significa <em>"Língua"</em>.
+                Lidzimi é uma palavra em Changana que significa <em>Língua</em>.
                 Esta plataforma tem como objetivo preservar e promover a diversidade linguística
                 de Moçambique através da documentação aberta e colaborativa.
               </p>

@@ -3,132 +3,84 @@ import { ChevronLeft } from "lucide-react";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 const HomeContent = () => {
-  return (
-    <section className="py-32">
-      <div className="container">
-        <div className="relative flex flex-col justify-between gap-10 lg:flex-row">
-          <aside className="top-10 h-fit flex-shrink-0 lg:sticky lg:w-[300px] xl:w-[400px]">
-            <a
-              className="text-muted-foreground hover:text-primary mb-5 flex items-center gap-1"
-              href="#"
-            >
-              <ChevronLeft className="h-full w-4" />
-              Return to home
-            </a>
-            <h1 className="mb-5 text-balance text-3xl font-bold lg:text-4xl">
-              10 Best Practices for Building a Large Scale Design System
-            </h1>
-            <div className="flex gap-3">
-              <Avatar className="size-7 rounded-full">
-                <AvatarImage
-                  src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/avatar-1.webp"
-                  alt="placeholder"
-                />
-              </Avatar>
-              <div>
-                <h2 className="font-semibold">John Doe</h2>
-                <p className="text-muted-foreground text-xs">2 days ago</p>
-              </div>
-            </div>
-          </aside>
 
-          <article className="">
+  return (
+    <section className="py-20">
+      <div className="container max-w-4xl mx-auto">
+        {/* Header Centralizado */}
+        <div className=" mb-12">
+          <h1 className="text-5xl font-bold text-amber-800 mb-6 text-center">
+            Lidzimi
+          </h1>
+          <p className="text-xl  text-muted-foreground max-w-2xl mx-auto text-center">
+            Uma plataforma Open Source para Documentação de Línguas Nativas de Moçambique.
+          </p>
+
+        </div>
+
+        <div className="flex flex-col items-center ">
+          {/* Conteúdo Principal Centralizado */}
+          <article className="w-full max-w-3xl px-4 ">
             <img
               src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
-              alt="placeholder"
-              className="mb-8 mt-0 aspect-video w-full rounded-lg object-cover"
+              alt="Línguas de Moçambique"
+              className="mb-8 w-full rounded-lg object-cover shadow-lg border-amber-50"
             />
-            <div className="prose dark:prose-invert">
-              <p>
-                Once upon a time, in a far-off land, there was a very lazy king
-                who spent all day lounging on his throne. One day, his advisors
-                came to him with a problem: the kingdom was running out of
-                money.
+
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto ">
+              Contribua no nosso projeto no{' '}
+              <a
+                href="https://github.com/seu-usuario/seu-repositorio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-700  hover:underline font-medium"
+              >
+                GitHub
+              </a>{' '}
+              sugerindo novas funcionalidades ou melhorando a documentação. Caso não seja um desenvolvedor entre em contato conosco via{' '}
+              <a
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-700 hover:underline font-medium"
+              >
+                WhatsApp
+              </a>.
+            </p>
+            <br />
+
+            <div className="text-xl text-muted-foreground max-w-2xl mx-auto ">
+              <p className=" text-xl text-muted-foreground max-w-2xl mx-auto">
+                Lidzimi é uma palavra em Changana que significa <em>"Língua"</em>.
+                Esta plataforma tem como objetivo preservar e promover a diversidade linguística
+                de Moçambique através da documentação aberta e colaborativa.
               </p>
-              <h2>The King&apos;s Plan</h2>
-              <p>
-                The king thought long and hard, and finally came up with{" "}
-                <a href="#">a brilliant plan</a>: he would tax the jokes in the
-                kingdom.
-              </p>
-              <blockquote>
-                &ldquo;After all,&rdquo; he said, &ldquo;everyone enjoys a good
-                joke, so it&apos;s only fair that they should pay for the
-                privilege.&rdquo;
-              </blockquote>
-              <h3>The Joke Tax</h3>
-              <p>
-                The king&apos;s subjects were not amused. They grumbled and
-                complained, but the king was firm:
-              </p>
+              <br />
+              <h2 className="py-2 text-3xl text-center font-bold text-amber-700">Línguas
+                Documentadas</h2>
               <ul>
-                <li>1st level of puns: 5 gold coins</li>
-                <li>2nd level of jokes: 10 gold coins</li>
-                <li>3rd level of one-liners : 20 gold coins</li>
+                <li>
+                  <strong>
+                    <a href="#" className="text-amber-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors">Ronga</a>
+                  </strong> - Língua nativa da região de Maputo
+                </li>
               </ul>
-              <p>
-                As a result, people stopped telling jokes, and the kingdom fell
-                into a gloom. But there was one person who refused to let the
-                king&apos;s foolishness get him down: a court jester named
-                Jokester.
-              </p>
-              <h3>Jokester&apos;s Revolt</h3>
-              <p>
-                Jokester began sneaking into the castle in the middle of the
-                night and leaving jokes all over the place: under the
-                king&apos;s pillow, in his soup, even in the royal toilet. The
-                king was furious, but he couldn&apos;t seem to stop Jokester.
-              </p>
-              <p>
-                And then, one day, the people of the kingdom discovered that the
-                jokes left by Jokester were so funny that they couldn&apos;t
-                help but laugh. And once they started laughing, they
-                couldn&apos;t stop.
-              </p>
-              <h3>The People&apos;s Rebellion</h3>
-              <p>
-                The people of the kingdom, feeling uplifted by the laughter,
-                started to tell jokes and puns again, and soon the entire
-                kingdom was in on the joke.
-              </p>
-              <div>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>King&apos;s Treasury</th>
-                      <th>People&apos;s happiness</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Empty</td>
-                      <td>Overflowing</td>
-                    </tr>
-                    <tr className="even:bg-muted m-0 border-t p-0">
-                      <td>Modest</td>
-                      <td>Satisfied</td>
-                    </tr>
-                    <tr className="even:bg-muted m-0 border-t p-0">
-                      <td>Full</td>
-                      <td>Ecstatic</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p>
-                The king, seeing how much happier his subjects were, realized
-                the error of his ways and repealed the joke tax. Jokester was
-                declared a hero, and the kingdom lived happily ever after.
-              </p>
-              <p>
-                The moral of the story is: never underestimate the power of a
-                good laugh and always be careful of bad ideas.
-              </p>
+
+
+
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </article>
         </div>
       </div>
     </section>
+
   );
 };
 

@@ -21,51 +21,47 @@ import { HomeContent } from "./Home"
 export default function HomePage() {
   return (
 
-   <><Navbar /><div>
-  
+    <><Navbar /><div>
 
-      
-          <SidebarProvider>
-  <AppSidebar />
-  <SidebarInset>
-    {/* Header Fixo */}
-    <header className="fixed top-0 left-0 right-0 h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 bg-background z-40 border-b">
-      <div className="flex items-center gap-2 px-4">
-        <SidebarTrigger className="-ml-1" />
-        <Separator
-          orientation="vertical"
-          className="mr-2 data-[orientation=vertical]:h-4" />
-        <Breadcrumb className="">
-          <BreadcrumbList>
-            <BreadcrumbItem className="hidden md:block">
-              <BreadcrumbLink href="#">
-                Changana
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator className="hidden md:block" />
-            <BreadcrumbItem>
-              <BreadcrumbPage>Primeiros Passos</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-    </header>
-    
-    {/* Conteúdo Principal com margem para o header fixo */}
-    <div className="flex bg-gray-500 flex-1 flex-col gap-4 p-4 pt-0 mt-16">
-      <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-        <div className="bg-muted/50 aspect-video rounded-xl" />
-        <div className="bg-muted/50 aspect-video rounded-xl" />
-        <div className="bg-muted/50 aspect-video rounded-xl" />
-      </div>
-      <div className="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
-    </div>
-  </SidebarInset>
-</SidebarProvider>
-          
-         
-        
-      
+
+
+      <SidebarProvider>
+        <AppSidebar />
+        <SidebarInset>
+          {/* Header Fixo */}
+          <header className="fixed top-0 left-0 right-0 h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 bg-background z-40 border-b">
+            <div className="flex items-center gap-2 px-4">
+              <SidebarTrigger className="-ml-1" />
+              <Separator
+                orientation="vertical"
+                className="mr-2 data-[orientation=vertical]:h-4" />
+              <Breadcrumb className="">
+                <BreadcrumbList>
+                  <BreadcrumbItem className=" md:block">
+                    <BreadcrumbLink href="#">
+                      Changana
+                    </BreadcrumbLink>
+                  </BreadcrumbItem>
+                  <BreadcrumbSeparator className="hidden md:block" />
+                  <BreadcrumbItem>
+                    <BreadcrumbPage>Primeiros Passos</BreadcrumbPage>
+                  </BreadcrumbItem>
+                </BreadcrumbList>
+              </Breadcrumb>
+            </div>
+          </header>
+
+          <div>
+            <main className="min-h-[calc(100vh-4rem)] pt-16 lg:pl-20 lg:pr-20 bg-background">
+              <HomeContent />
+            </main>
+          </div>
+        </SidebarInset>
+      </SidebarProvider>
+
+
+
+
     </div></>
   )
 }

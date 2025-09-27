@@ -1,39 +1,37 @@
 # Lidzimi
 
-*Lidzimi - Documentação de Línguas Nacionais Nativas*
+*Lidzimi - Native National Languages Documentation*
 
-# Descrição:
-Lidzimi é um repositório de documentação de línguas nacionais nativas, onde as pessoas podem acessar e aprender sobre diferentes línguas. O objetivo é criar uma fonte de conhecimento acessível e gratuita para quem deseja aprender línguas nacionais.
+# Description:
+Lidzimi is a documentation repository for native national languages where people can access and learn about different languages. The goal is to create an accessible and free knowledge source for those who want to learn national languages.
 
-# Funcionalidades:
+Lidzimi is a word in Changana, and it means 'language'. Changana is a native language spoken in southern Mozambique (Maputo). Lidzimi derives from Ronga 'Ndzi dzimi', which means 'My Language'.
 
- Cada língua terá uma documentação detalhada, incluindo:
-- Saudações e apresentações
-- Vocabulário básico
-- Gramática e sintaxe
-- Exemplos de frases e diálogos
-- *Tradução para Português:* Todas as línguas estarão traduzidas para português, facilitando o acesso para falantes de português.
+# Features:
+
+   - Each language will have detailed documentation, including:
+
+   - Greetings and introductions;
+
+   - Basic vocabulary;
+
+   - Grammar and syntax;
+
+   - Example phrases and dialogues;
+
+   - Portuguese Translation: All languages will be translated into Portuguese, making it accessible for Portuguese speakers.
 
 # Tecnologias:
 
-- *Frontend:* React, Tailwind CSS, Typescript, ShadCn UI.
-- *Backend:* Nextjs
+   - *Frontend:* React ( Tailwind CSS, Typescript, ShadCn UI ).
+   - *Backend:* Nextjs.
 
-*Estrutura de Documentação:*
-A documentação será estruturada da seguinte forma:
 
-- *Línguas:* Cada língua terá um arquivo próprio com a documentação detalhada.
-- *Categorias:* A documentação será organizada em categorias, como saudações, vocabulário básico, gramática e exemplos de frases.
+# Objective::
 
-# Objetivo:
-Preservar e promover a diversidade linguística, fornecendo uma fonte de conhecimento acessível para quem deseja aprender línguas nacionais.
-# Contribua:
-Se você deseja contribuir com a documentação de uma língua, entre em contacto conosco. ou envie um pull-request.
+Preserve and promote linguistic diversity by providing an accessible knowledge source for those who want to learn national languages.
 
-*Plataforma de Documentação:*
-A documentação será acessada por todos através de uma plataforma própria de documentação, que será construída utilizando as tecnologias mencionadas acima.
+# Contribute:
+If you wish to contribute to the documentation of a language, please contact us or send a pull request.
 
-*Licença:*
-
-*Contato:*
 

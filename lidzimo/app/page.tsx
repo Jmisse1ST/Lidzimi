@@ -32,22 +32,21 @@ export default function HomePage() {
             <br />
             <br />
             <br />
-            <br />
-            <div className="flex items-center gap-2 px-4">
+            <div className="fixed flex items-center gap-2 px-4">
               <SidebarTrigger className="-ml-1" />
               <Separator
                 orientation="vertical"
                 className="mr-2 data-[orientation=vertical]:h-4" />
               <Breadcrumb className="">
                 <BreadcrumbList>
-                  <BreadcrumbItem className=" md:block">
+                  <BreadcrumbItem className="text-amber-600 hidden md:block">
                     <BreadcrumbLink href="#">
-                      Changana
+                      Começando
                     </BreadcrumbLink>
                   </BreadcrumbItem>
                   <BreadcrumbSeparator className="hidden md:block" />
                   <BreadcrumbItem>
-                    <BreadcrumbPage>Primeiros Passos</BreadcrumbPage>
+                    <BreadcrumbPage className="text-amber-600">O que é  Lidzimi?</BreadcrumbPage>
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>

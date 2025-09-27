@@ -3,7 +3,7 @@
 const HomeContent = () => {
 
   return (
-    <section className="py-20">
+    <section className="py-10">
       <div className="container max-w-4xl mx-auto">
         {/* Header Centralizado */}
         <div className=" mb-12">

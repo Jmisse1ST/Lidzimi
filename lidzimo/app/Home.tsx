@@ -10,7 +10,7 @@ const HomeContent = () => {
           <h1 className="text-5xl font-bold text-amber-800 mb-6 text-center">
             Lidzimi
           </h1>
-          <p className="text-xl  text-muted-foreground max-w-2xl mx-auto text-center">
+          <p className="px-4 md:px-12 lg:px-8 text-xl  text-muted-foreground max-w-2xl mx-auto text-center">
             Uma plataforma Open Source para Documentação de Línguas Nativas de Moçambique.
           </p>
 

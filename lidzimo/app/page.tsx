@@ -46,7 +46,7 @@ export default function HomePage() {
                   </BreadcrumbItem>
                   <BreadcrumbSeparator className="hidden md:block" />
                   <BreadcrumbItem>
-                    <BreadcrumbPage className="text-amber-600">O que é  Lidzimi?</BreadcrumbPage>
+                    <BreadcrumbPage className="text-gray-600">O que é  Lidzimi?</BreadcrumbPage>
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>

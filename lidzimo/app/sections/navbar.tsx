@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
 
-        <section className="py-6 bg-gray-100  border-b">
+        <section className="py-6 bg-gray-100  border-b fixed top-0 left-0 w-full z-50">
             <div className="container container mx-auto md:px-20 lg:px-24">
                 <nav className="flex items-center justify-between">
                     <a

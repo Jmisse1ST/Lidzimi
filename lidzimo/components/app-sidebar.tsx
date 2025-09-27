@@ -27,13 +27,13 @@ const data = {
 
   navMain: [
     {
-      title: "Comecando",
+      title: "Começando.",
       url: "#",
       icon: SquareTerminal,
       isActive: false,
       items: [
         {
-          title: "O que e Lidzimi?",
+          title: "O que é  Lidzimi?",
           url: "#",
         },
       ],
@@ -146,7 +146,7 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
 
-    <Sidebar collapsible="icon" {...props}>
+    <Sidebar  className="z-50" collapsible="icon" {...props}>
       <SidebarHeader>
 
       </SidebarHeader>
@@ -157,7 +157,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarContent>
       <SidebarFooter>
         <div className=" text-black/30 text-bold py-5 px-5 text-xl">
-          <p> &quot; Por um país em que a diversidade cultural não seja motivo de divisão.&quot;  @Jemisse </p>  &quot
+          <p> &quot;Por um país em que a diversidade cultural não seja motivo de divisão.&quot; @Jemisse </p>  
         </div>
 
       </SidebarFooter>

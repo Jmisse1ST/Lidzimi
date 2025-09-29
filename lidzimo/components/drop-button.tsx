@@ -17,7 +17,7 @@ export function DropdownMenuIdiomas() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="outline" className="bg-amber-700 text-white  hover:bg-gray-600  asChild w-25 ">Idioma</Button>
+                <Button variant="outline" className="bg-amber-700 text-white  hover:bg-amber-600  asChild w-25 ">Idioma</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-25" align="start">
                 <DropdownMenuGroup>

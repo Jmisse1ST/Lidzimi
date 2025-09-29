@@ -63,7 +63,8 @@ const HomeContent = () => {
 
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors ">Xichangana</a>
-                  </strong> - Língua nativa da região de Maputo - 27%
+                  </strong> - 27% <br />
+                  A língua Xichangana originou-se no século XIX durante a formação do Império de Gaza. Quando o rei Soshangane e seu povo, falantes de Nguni, migraram para o sul de Moçambique durante o Mfecane, sua língua fundiu-se... <span className="text-amber-600">ler mais</span>
 
                 </li>
               </ul>

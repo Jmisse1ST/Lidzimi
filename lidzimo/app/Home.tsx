@@ -21,9 +21,11 @@ const HomeContent = () => {
 
           <article className="w-full max-w-3xl px-4 ">
             <img
-              src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+              src="/homelogo.webp"
+              width={400} // Defina a largura
+              height={200} // Defina a altura
               alt="Línguas de Moçambique"
-              className="mb-8 w-full rounded-lg object-cover shadow-lg border-amber-50"
+              className="w-full mb-8 lg:mb-2 lg:scale-90 rounded-lg object-contain shadow-lg border-amber-50"
             />
 
             <p className="text text-muted-foreground max-w-2xl mx-auto  font-mono ">
@@ -81,7 +83,7 @@ const HomeContent = () => {
 
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600 ">Zona Norte</a>
-                  </strong>-Línguas nativas da região norte de Moçambique - 0%
+                  </strong> - Línguas nativas da região norte de Moçambique - 0%
 
                 </li>
 
@@ -89,14 +91,14 @@ const HomeContent = () => {
 
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600  ">Zona Centro</a>
-                  </strong>- Línguas nativas da região sul de Moçambique - 0%
+                  </strong> - Línguas nativas da região sul de Moçambique - 0%
 
                 </li>
                 <li>
 
                   <strong className="text">
                     <a href="#" className=" text-gray-700  hover:text-amber-600  ">Zona Sul</a>
-                  </strong>- Línguas nativas da região sul de Moçambique - 6.7%
+                  </strong> - Línguas nativas da região sul de Moçambique - 6.7%
 
                 </li>
 

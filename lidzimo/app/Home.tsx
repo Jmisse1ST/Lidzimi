@@ -3,7 +3,7 @@
 const HomeContent = () => {
 
   return (
-    <section className="py-20 md:bg-gray-50 bg-amber-50">
+    <section className="py-20 md:bg-gray-50 lg:bg-gray-50">
       <div className="container max-w-4xl mx-auto ">
 
         <div className=" mb-12">
@@ -38,7 +38,7 @@ const HomeContent = () => {
               </a>{' '}
               sugerindo novas funcionalidades ou melhorando a documentação. Caso não seja um desenvolvedor entre em contacto connosco via{' '}
               <a
-                href=""
+                href="https://wa.me/258844539461?text=Olá!%20Gostaria%20de%20contribuir%20com%20o%20seu%20projeto.%20Pode%20me%20dar%20mais%20informações?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-700 hover:underline font-medium"

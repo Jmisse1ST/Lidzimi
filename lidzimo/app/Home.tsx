@@ -64,7 +64,7 @@ const HomeContent = () => {
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors ">Xichangana</a>
                   </strong> - 27% <br />
-                  A língua Xichangana originou-se no século XIX durante a formação do Império de Gaza. Quando o rei Soshangane e seu povo, falantes de Nguni, migraram para o sul de Moçambique durante o Mfecane, sua língua fundiu-se... <span className="text-amber-600">ler mais</span>
+                  A língua Xichangana originou-se no século XIX durante a formação do Império de Gaza. Quando o rei Soshangane e seu povo, falantes de Nguni, migraram para o sul de Moçambique durante o Mfecane, sua língua fundiu-se...<a href="#" className="text-amber-600">ler mais</a> 
 
                 </li>
               </ul>
@@ -81,7 +81,7 @@ const HomeContent = () => {
 
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600 ">Zona Norte</a>
-                  </strong>- Língua nativas da região norte de Mocambiquee - 0 %
+                  </strong>-Línguas nativas da região norte de Moçambique - 0%
 
                 </li>
 
@@ -89,14 +89,14 @@ const HomeContent = () => {
 
                   <strong className="text">
                     <a href="#" className="text text-gray-700 hover:text-amber-600  ">Zona Centro</a>
-                  </strong>- Língua nativa da região de Maputo - 0 %
+                  </strong>- Línguas nativas da região sul de Moçambique - 0%
 
                 </li>
                 <li>
 
                   <strong className="text">
                     <a href="#" className=" text-gray-700  hover:text-amber-600  ">Zona Sul</a>
-                  </strong>- Língua nativa da região de Sul de Mocambique - 7.9 %
+                  </strong>- Línguas nativas da região sul de Moçambique - 6.7%
 
                 </li>
 

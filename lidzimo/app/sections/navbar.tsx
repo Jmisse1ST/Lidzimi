@@ -1,5 +1,6 @@
 "use client";
 
+import {  DropdownMenuIdiomas } from "@/components/drop-button";
 import { Button } from "../../components/ui/button";
 import {
     NavigationMenu,
@@ -35,12 +36,9 @@ const Navbar = () => {
                             Changana
                         </Button>
 
-                        <Button className="bg-amber-700 text-white  hover:bg-gray-600  asChild  "
-
-                        >
-                            Idiomas
-                        </Button>
-
+                       
+                        <DropdownMenuIdiomas />
+                        
                     </div>
 
                 </nav>

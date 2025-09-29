@@ -23,20 +23,22 @@ export default function HomePage() {
 
     <><Navbar /><div>
 
-      <SidebarProvider>
+      <SidebarProvider className="">
         <AppSidebar />
         <SidebarInset>
-          {/* Header Fixo */}
+
           <header className="">
+
             <br />
             <br />
             <br />
-            <br />
-            <div className="fixed flex items-center gap-2 px-4">
-              <SidebarTrigger className="-ml-1" />
+
+            <div className="fixed flex items-center gap-2 px-4 py-6">
+              <SidebarTrigger />
               <Separator
                 orientation="vertical"
-                className="mr-2 data-[orientation=vertical]:h-4" />
+                className="mr-2 data-[orientation=vertical]:h-4 bg-amber-900" />
+
               <Breadcrumb className="">
                 <BreadcrumbList>
                   <BreadcrumbItem className="text-amber-600 hidden md:block">
@@ -53,15 +55,15 @@ export default function HomePage() {
             </div>
           </header>
 
-          <div>
-            
-            <main className="min-h-[calc(100vh-4rem)] pt-16 lg:pl-20 lg:pr-20 bg-background">
-              
+         
+
+          <main className="min-h-[calc(100vh-4rem)]  lg:pl-40 lg:pr-40 bg-gray-50">
+
               <HomeContent />
 
-            </main>
-          </div>
+          </main>
          
+
         </SidebarInset>
       </SidebarProvider>
 

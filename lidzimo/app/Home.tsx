@@ -3,11 +3,12 @@
 const HomeContent = () => {
 
   return (
-    <section className="py-10">
-      <div className="container max-w-4xl mx-auto">
-        {/* Header Centralizado */}
+    <section className="py-20 md:bg-gray-50 bg-amber-50">
+      <div className="container max-w-4xl mx-auto ">
+
         <div className=" mb-12">
-          <h1 className="text-5xl font-bold text-amber-800 mb-6 text-center">
+
+          <h1 className="text-5xl font-bold text-amber-800 mb-6 text-center ">
             Lidzimi
           </h1>
           <p className="px-4 md:px-12 lg:px-8 text-xl  text-muted-foreground max-w-2xl mx-auto text-center">
@@ -17,7 +18,7 @@ const HomeContent = () => {
         </div>
 
         <div className="flex flex-col items-center ">
-          {/* Conteúdo Principal Centralizado */}
+         
           <article className="w-full max-w-3xl px-4 ">
             <img
               src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
@@ -25,7 +26,7 @@ const HomeContent = () => {
               className="mb-8 w-full rounded-lg object-cover shadow-lg border-amber-50"
             />
 
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto ">
+            <p className="text text-muted-foreground max-w-2xl mx-auto  font-mono ">
               Contribua no nosso projeto no{' '}
               <a
                 href="https://github.com/Jmisse1ST/Lidzimi"
@@ -35,7 +36,7 @@ const HomeContent = () => {
               >
                 GitHub
               </a>{' '}
-              sugerindo novas funcionalidades ou melhorando a documentação. Caso não seja um desenvolvedor entre em contato conosco via{' '}
+              sugerindo novas funcionalidades ou melhorando a documentação. Caso não seja um desenvolvedor entre em contacto connosco via{' '}
               <a
                 href=""
                 target="_blank"
@@ -47,24 +48,24 @@ const HomeContent = () => {
             </p>
             <br />
 
-            <div className="text-xl text-muted-foreground max-w-2xl mx-auto ">
-              <p className=" text-xl text-muted-foreground max-w-2xl mx-auto">
+            <div className="text font-mono text-muted-foreground max-w-2xl mx-auto ">
+              <p>
                 Lidzimi é uma palavra em Changana que significa <em>Língua</em>.
                 Esta plataforma tem como objetivo preservar e promover a diversidade linguística
                 de Moçambique através da documentação aberta e colaborativa.
               </p>
               <br />
-              <h2 className="py-2 text-3xl text-center font-bold text-amber-700">Línguas
+              <h2 className="py-5 text-2xl text-center font-bold text-amber-700">Línguas
                 Documentadas</h2>
               <ul>
                 <li>
-                  <strong>
-                    <a href="#" className="text-amber-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors">Ronga</a>
-                  </strong> - Língua nativa da região de Maputo
+                  
+                  <strong className="text-xl">
+                    <a href="#" className="text-xl text-amber-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors ">Ronga</a>
+                  </strong>- Língua nativa da região de Maputo - 67%
+
                 </li>
               </ul>
-
-
 
             </div>
             <br />

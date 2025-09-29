@@ -18,7 +18,7 @@ const HomeContent = () => {
         </div>
 
         <div className="flex flex-col items-center ">
-         
+
           <article className="w-full max-w-3xl px-4 ">
             <img
               src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
@@ -55,16 +55,50 @@ const HomeContent = () => {
                 de Moçambique através da documentação aberta e colaborativa.
               </p>
               <br />
+              <br />
               <h2 className="py-5 text-2xl text-center font-bold text-amber-700">Línguas
                 Documentadas</h2>
               <ul>
                 <li>
-                  
-                  <strong className="text-xl">
-                    <a href="#" className="text-xl text-amber-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors ">Ronga</a>
-                  </strong>- Língua nativa da região de Maputo - 67%
+
+                  <strong className="text">
+                    <a href="#" className="text text-gray-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-colors ">Xichangana</a>
+                  </strong> - Língua nativa da região de Maputo - 27%
 
                 </li>
+              </ul>
+              <br />
+              <br />
+              <br />
+              
+
+              <h2 className=" text-2xl text-center font-bold text-amber-700">Por
+                Documentar</h2>
+                <br />
+              <ul>
+                <li>
+
+                  <strong className="text">
+                    <a href="#" className="text text-gray-700 hover:text-amber-600 ">Zona Norte</a>
+                  </strong>- Língua nativas da região norte de Mocambiquee - 0 %
+
+                </li>
+
+                <li>
+
+                  <strong className="text">
+                    <a href="#" className="text text-gray-700 hover:text-amber-600  ">Zona Centro</a>
+                  </strong>- Língua nativa da região de Maputo - 0 %
+
+                </li>
+                <li>
+
+                  <strong className="text">
+                    <a href="#" className=" text-gray-700  hover:text-amber-600  ">Zona Sul</a>
+                  </strong>- Língua nativa da região de Sul de Mocambique - 7.9 %
+
+                </li>
+
               </ul>
 
             </div>

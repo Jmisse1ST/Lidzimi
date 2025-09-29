@@ -1,7 +1,7 @@
 "use client";
 
-import {  DropdownMenuIdiomas } from "@/components/drop-button";
-import { Button } from "../../components/ui/button";
+import {  DropdownMenuIdiomas, DropdownMenuLanguage } from "@/components/drop-button";
+
 import {
     NavigationMenu,
 
@@ -9,6 +9,7 @@ import {
 
 
 const Navbar = () => {
+   
 
     return (
 
@@ -30,13 +31,9 @@ const Navbar = () => {
                     </NavigationMenu>
                     <div className="items-center text-gray-900  gap-4 flex mr-6">
 
-                        <Button className="border-amber-700 text-amber-700 hover:bg-gray-600 hover:text-amber-900" variant="outline"
+                        <DropdownMenuLanguage/>
 
-                        >
-                            Changana
-                        </Button>
-
-                       
+                      
                         <DropdownMenuIdiomas />
                         
                     </div>
@@ -48,3 +45,5 @@ const Navbar = () => {
 };
 
 export { Navbar };
+
+

@@ -3,7 +3,7 @@
 const HomeContent = () => {
 
   return (
-    <section className="py-20 md:bg-gray-50 lg:bg-gray-50">
+    <section className="py-20 bg-amber-50 lg:bg-gray-50">
       <div className="container max-w-4xl mx-auto ">
 
         <div className=" mb-12">

@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 
 
 const HomeContent = () => {
@@ -105,13 +106,10 @@ const HomeContent = () => {
               </ul>
 
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
+             <Footer/>
+           
+         
           </article>
         </div>
       </div>
